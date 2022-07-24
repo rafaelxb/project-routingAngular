@@ -1,0 +1,8 @@
+<app-header></app-header>
+    <p>details-page works!</p>
+
+    <div *ngIf="product">
+        <h1>Descricao: {{product.description}}</h1>
+        <h2>Preço: {{product.price | currency: 'R$'}}</h2>
+    </div>
+<app-footer></app-footer>
